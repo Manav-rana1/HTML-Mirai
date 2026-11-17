@@ -15,41 +15,28 @@
         #div1{
             transition-timing-function: linear;
         }
-         #div2{
-            transition-timing-function: ease;
-        }
-         #div3{
-            transition-timing-function: ease-in;
-        }
-         #div4{
-            transition-timing-function: ease-out;
-        }
-        #div4{
-            transition-timing-function: ease-in-out;
-        }
+       
         
         div{
            width: 200px;
            height: 200px;
            background-color: yellowgreen;
-           transition: width 2s, height 2s , background-color 2s, transform 2s;
+           transition: width 2s, height 2s , background-color 2s, transform 2s , border-radius 2s;
            display:grid;
            place-items: center;
            margin: 10px;
         }
         div:hover{
             width:400px;
-            height:300px;
+            height:400px;
             background-color:orange;
-            transform: rotate(360deg);
+            transform: rotate(7200deg) translate(600px,200px);
+            border-radius: 50%;
         }
     </style>
 </head>
 <body>
+
     <div id="div 1"> linear</div>
-    <div id="div 2">ease  </div>
-    <div id="div 3"> ease in</div>
-    <div id="div 4"> ease out</div>
-    <div id="div 5"> ease-in-out</div>
 </body>
 </html>
