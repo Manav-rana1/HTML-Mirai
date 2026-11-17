@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+           height: 300px;
+           width: 300px;
+           background-color: darkgreen; 
+           border-radius: 2px; 
+           position: relative; /* make children position relative to this */
+           margin: 40px auto; /* center horizontally */
+        }
+        .shiv, .shiva, .shivan, .shivans {
+            position: absolute;
+            color: white;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        .shiv { top: 5px; left: 5px; }
+        .shiva { top: 5px; right: 5px; }
+        .shivan { bottom: 5px; left: 5px; }
+        .shivans { bottom: 5px; right: 5px; }
+        .shiv{
+            position:absolute;
+            top: 0;
+            left: 0;
+
+        }
+        .shiva{
+            top: 0;
+            right:0;
+
+        }
+        .shivan{
+            bottom: 0;
+            left: 0;
+        }
+        .shivans{
+            bottom:0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <span class="shiv"> Shivansh</span>
+        <span class="shiva"> Shivansh</span>
+        <span class="shivan"> Shivansh</span>
+        <span class="shivans"> Shivansh</span>
+    </div>
+    
+</body>
+</html>
